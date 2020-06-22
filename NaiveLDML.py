@@ -12,9 +12,9 @@ def ldm(tester):
     # from sklearn.model_selection import train_test_split
     # from sklearn.metrics import accuracy_score
     
-    df = pd.read_csv("C:/Users/Haider Usman/PycharmProjects/untitled/ldds.csv")
+    df = pd.read_csv("ldds.csv")
     df = df.sample(frac=1).reset_index(drop=True)
-    test = pd.read_csv("C:/Users/Haider Usman/PycharmProjects/untitled/lddsp.csv")
+    test = pd.read_csv("lddsp.csv")
     
     #X_test = test.iloc[:,2:26]
     #X_test = df.iloc[:,2:26]
