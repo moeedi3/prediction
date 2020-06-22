@@ -13,7 +13,7 @@ import pandas as pd
 app = Flask(__name__)
 
 
-@app.route("/")
+@app.route("https://ardisability.herokuapp.com")
 def home():
     return "Server is working"
 #  
