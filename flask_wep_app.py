@@ -51,4 +51,4 @@ def ld(age, headsize, fits, hyg, motor, grossmot, express, iqob, iqtime, iqface,
     return jsonify({"answer":answer})
 
 if __name__ == "__main__":
-    
+    app.run(host = '0.0.0.0')
